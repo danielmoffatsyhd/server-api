@@ -1,0 +1,29 @@
+{
+  "contacts": [
+    {
+      "id": "b85d2a78-6df1-4ff6-acfa-6fdd2587e533",
+      "name": "Daniel",
+      "email": "online@sphinxgroup.co.za"
+    },
+    {
+      "id": "19da1e34-fb83-4b0a-b12b-bc030b320157",
+      "name": "Cleopatra Restaurant ",
+      "email": "danielsiphondlovu@gmail.com"
+    },
+    {
+      "id": "96a142db-78a7-4570-9675-fdbc32d838ff",
+      "name": "Newcontact ",
+      "email": "Newemail@gmail.com"
+    },
+    {
+      "id": "f59fcae6-006f-45e2-8e13-51b7f7f424aa",
+      "name": "Daniel",
+      "email": "info.com.tech.unit@gmail.com"
+    },
+    {
+      "name": "Dan",
+      "email": "online@damasy.co.za",
+      "id": "QS5S5ep"
+    }
+  ]
+}
