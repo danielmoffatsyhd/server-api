@@ -13,7 +13,7 @@ API for the Contact Management Application
 
 # Collection
 
-Find in the collection dir
+Find postman collections within the collections dir
 
 ## Run
 ```
