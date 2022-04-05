@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "754f52c6-276c-4814-8b8c-eb8428ae7ff0",
+		"name": "server-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Contacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{hostname}}/contacts",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Contact byId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{hostname}}/contacts/:id",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"contacts",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "b85d2a78-6df1-4ff6-acfa-6fdd2587e533"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Dan\",\r\n    \"email\": \"online@damasy.co.za\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/contacts",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Contact",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n   \"name\": \"Newcontact \",\r\n        \"email\": \"Newemail@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/contacts/:id",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"contacts",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "30661519-3c13-44b8-a5de-3bd3cdf22def"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n     \"name\": \"tem\",\r\n        \"email\": \"DANIELMOFFATSYHD@GMAIL.COM\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/contacts/:id",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"contacts",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "30661519-3c13-44b8-a5de-3bd3cdf22def"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
